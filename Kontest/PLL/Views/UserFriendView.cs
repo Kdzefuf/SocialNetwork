@@ -9,6 +9,8 @@ namespace SocialNetwork.PLL.Views
     {
         public void Show(IEnumerable<User> friends)
         {
+            Console.WriteLine();
+
             Console.WriteLine("Мои друзья");
 
             if (friends.Count() == 0)

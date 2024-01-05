@@ -9,6 +9,8 @@ namespace SocialNetwork.PLL.Views
     {
         public void Show(IEnumerable<Message> outgoingMessages)
         {
+            Console.WriteLine();
+
             Console.WriteLine("Исходящие сообщения");
 
             if (outgoingMessages.Count() == 0)

@@ -21,6 +21,8 @@ namespace SocialNetwork.PLL.Views
         {
             var messageSendingData = new MessageSendingData();
 
+            Console.WriteLine();
+
             Console.Write("Введите электронную почту получателя: ");
             messageSendingData.RecipientEmail = Console.ReadLine();
 

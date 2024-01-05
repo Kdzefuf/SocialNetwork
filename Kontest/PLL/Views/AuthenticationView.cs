@@ -19,6 +19,8 @@ namespace SocialNetwork.PLL.Views
         {
             var authenticationData = new UserAuthenticationData();
 
+            Console.WriteLine();
+
             Console.WriteLine("Введите электронную почту:");
             authenticationData.Email = Console.ReadLine();
 

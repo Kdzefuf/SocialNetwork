@@ -16,6 +16,8 @@ namespace SocialNetwork.PLL.Views
 
         public void Show(User user)
         {
+            Console.WriteLine();
+
             Console.Write("Меня зовут: ");
             user.FirstName = Console.ReadLine();
 
